@@ -6,15 +6,19 @@ This project seeks to design a virtual tiny house on wheels with blender (a free
 
 Note: this repo is presently structured to help me keep track of drafts - truly a work in progress.
 
-The following images are a couple of demonstrations prepared to date.
+The following images are renders prepared to date.
 
-## Illustration No.1
+## 2021.03.10 Render
+
+![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.03.10-VirtualTinyHouse.png)
+
+## Render No.1
 
 ![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/Virtual%20Tiny%20House%20-%203D%20Environment%20Demo.gif)
 
 Title: Virtual Tiny House - 3D Environment Demo
 
-## Illustration No.2
+## Render No.2
 
 ![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/Living%20Room%20-%20Interior%20Scene%20Demo.png)
 
