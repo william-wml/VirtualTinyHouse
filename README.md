@@ -4,9 +4,17 @@ This project seeks to design a virtual tiny house on wheels with blender (a free
 
 # Overview
 
-Note: this repo is presently structured to help me keep track of drafts - truly a work in progress.
+Note: this repo is presently structured to help keep track of drafts - truly a work in progress.
 
 The following images are renders prepared to date.
+
+## 2021.04.09 Render A
+
+![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.04.09-RenderA.png)
+
+## 2021.03.10 Render B
+
+![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.04.09-RenderB.png)
 
 ## 2021.03.10 Render
 
