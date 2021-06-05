@@ -8,6 +8,14 @@ Note: this repo is presently structured to help keep track of drafts - truly a w
 
 The following images are renders prepared to date.
 
+## 2021.06.04 Render A
+
+![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.06.04-RenderA.png)
+
+## 2021.06.04 Render B
+
+![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.06.04-RenderB.png)
+
 ## 2021.04.09 Render A
 
 ![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.04.09-RenderA.png)
