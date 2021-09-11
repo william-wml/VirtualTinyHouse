@@ -6,43 +6,17 @@ This project seeks to design a virtual tiny house on wheels with blender (a free
 
 Note: this repo is presently structured to help keep track of drafts - truly a work in progress.
 
-The following images are renders prepared to date.
+The following couple of images were recently prepared.
 
-## 2021.08.07 Render A
+## 2021.09.10 Render A
 
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.08.07-RenderA.png)
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.09.10TH_RenderA.png" width="50%" height="50%">
 
-## 2021.06.04 Render A
+## 2021.09.10 Render B
 
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.06.04-RenderA.png)
-
-## 2021.06.04 Render B
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.06.04-RenderB.png)
-
-## 2021.04.09 Render A
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.04.09-RenderA.png)
-
-## 2021.03.10 Render B
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.04.09-RenderB.png)
-
-## 2021.03.10 Render
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.03.10-VirtualTinyHouse.png)
-
-## Render No.1
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/Virtual%20Tiny%20House%20-%203D%20Environment%20Demo.gif)
-
-Title: Virtual Tiny House - 3D Environment Demo
-
-## Render No.2
-
-![alt text](https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/Living%20Room%20-%20Interior%20Scene%20Demo.png)
-
-Title: Living Room - Interior Scene Demo
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.09.10TH_RenderB.png" width="50%" height="50%">
 
 # Links
+
+- [Wiki](https://github.com/william-wml/VirtualTinyHouse/wiki)
 - [Instagram](https://www.instagram.com/virtualtinyhouse)
