@@ -26,4 +26,4 @@ Contents and functionality continue to progress. A handful of updates can be dis
 
 - note: in order to improve import times, live scenes will likely have a limited number of objects
 
-[Link to a Live 3D Scene: VtH - fasteners, plumbing, receptacles, & more!](https://3dviewer.net/#model=https://raw.githubusercontent.com/william-wml/VirtualTinyHouse/dev/test/testfiles/gltf/scenes/20221009VtH-LiveScene001.glb)
+[Link to a Live 3D Scene: VtH - fasteners, plumbing, receptacles, & more!](https://3dviewer.net/#model=https://github.com/william-wml/VirtualTinyHouse/blob/master/test/testfiles/gltf/scenes/20221009VtH-LiveScene001.glb)
