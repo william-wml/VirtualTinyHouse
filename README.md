@@ -22,6 +22,6 @@ Contents and functionality continue to progress. A handful of updates can be dis
 
 ### Screenshot
 
-<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/test/testfiles/screenshots/2026.11.19image001.png" width="50%" height="50%">
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2026.11.19image001.png" width="50%" height="50%">
 
 [Link to a Live 3D Scene](https://william-wml.github.io/VirtualTinyHouse/)
