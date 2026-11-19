@@ -1,0 +1,19 @@
+
+# ==================================================
+# VtH — Root Git Ignore Rules
+# ==================================================
+
+# Visual Studio workspace and cache
+.vs/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak

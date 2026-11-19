@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f2ed" />
+  <meta name="description" content="Explore VtH in 3D. Rotate, select and discover its structural details." />
+  <title>Explore VtH | Virtual Tiny House</title>
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <a class="identity" href="./" aria-label="VtH home">
+        <span class="identity-mark" aria-hidden="true">VtH</span>
+        <span class="identity-text"><span class="identity-overline">VIRTUAL TINY HOUSE</span><span class="identity-name">VtH</span></span>
+      </a>
+      <a class="repository-link" href="https://github.com/william-wml/VirtualTinyHouse" target="_blank" rel="noopener noreferrer">About the project <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <div class="intro">
+        <div><p class="eyebrow">VIRTUAL TINY HOUSE</p>
+          <h1>Explore VtH.</h1>
+          <p class="intro-description">Discover the framing, construction details, and movable design of VtH in an interactive 3D model.</p>
+        </div>
+        
+      </div>
+
+      <section class="workbench" aria-label="Interactive VtH model">
+        <div class="viewport" aria-label="3D model view" aria-busy="true">
+          <canvas id="viewer" tabindex="0" aria-label="Interactive 3D model of VtH" aria-describedby="keyboard-help">Your browser does not support the interactive 3D model.</canvas>
+          <p id="keyboard-help" class="visually-hidden">Keyboard: use arrow keys to rotate the model, plus and minus to zoom, Home to reset the view, and Escape to deselect a part. Tab moves to the next control.</p>
+          <div class="viewport-top"><span class="scene-tag"><span class="live-dot" aria-hidden="true"></span> 3D EXPLORER</span><span id="status" class="status" role="status" aria-live="polite">Loading VtH…</span></div>
+          <div id="model-loading" class="model-loading" role="region" aria-label="VtH model loading">
+            <div class="model-loading-card">
+              <div class="model-loading-mark" aria-hidden="true">VtH</div>
+              <h2 id="loading-title">Preparing your view</h2>
+              <p id="loading-message" role="status" aria-live="polite" aria-atomic="true">Loading the interactive model…</p>
+              <div id="loading-track" class="loading-track" role="progressbar" aria-label="Model download" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div id="loading-fill" class="loading-fill"></div>
+              </div>
+              <span id="loading-percent" class="loading-percent" aria-hidden="true">Starting…</span>
+              <button id="loading-retry" class="loading-retry" type="button" hidden>Try again</button>
+            </div>
+          </div>
+          <div class="viewport-bottom" aria-hidden="true"><span class="desktop-hint">Drag to rotate · Scroll to zoom · Right-drag to move</span><span class="touch-hint">One finger to rotate · Pinch to zoom · Two fingers to move</span></div>
+        </div>
+
+        <aside class="panel" aria-label="Model controls">
+          <details id="structure-controls" class="structure-controls" open>
+            <summary class="panel-heading"><p class="eyebrow">EXPLORE</p><h2>Explore the structure</h2><p>Choose which parts of VtH to display.</p></summary>
+            <div class="structure-controls-body">
+              <div class="panel-actions"><button id="show-all-btn" type="button" class="button-neutral">Show all</button><button id="reset-btn" type="button" class="button-neutral">Reset view</button></div>
+              <div id="component-list" class="component-list" aria-label="Component visibility"></div>
+              <label class="edges-control" for="edges-toggle"><span>Show edges</span><input id="edges-toggle" type="checkbox" checked aria-label="Show structural edges"></label>
+            </div>
+          </details>
+          
+          <section class="selection-panel" aria-live="polite">
+            <p class="eyebrow">SELECTED PART</p>
+            <p id="selection-name" class="selection-name">Select a component</p>
+            <p id="selection-category" class="selection-category">Click the model to explore a part.</p>
+            <p id="selection-description" class="selection-description">Choose a part to learn about its place in the structure.</p>
+            <div class="selection-actions"><button id="focus-btn" type="button" disabled>View closer</button><button id="clear-btn" type="button" disabled>Deselect</button></div>
+          </section>
+        </aside>
+      </section>
+      <div class="below-view"><span>Discover the details.</span><span>Rotate · Zoom · Select</span></div>
+    </main>
+    <footer><span>© Virtual Tiny House</span><span>Conceptual architectural visualization</span></footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

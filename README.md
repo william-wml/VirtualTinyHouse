@@ -8,22 +8,20 @@ VtH's repository is currently structured to share illustrations and compressed d
 
 Perspectives of VtH's updates can be readily viewed from the [wiki page](https://github.com/william-wml/VirtualTinyHouse/wiki), including a majority of illustrations.
 
-## 2021.09.10 Render A
+## Render A
 
-<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.09.10TH_RenderA.png" width="50%" height="50%">
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2026.11.17image003.png" width="50%" height="50%">
 
-## 2021.09.10 Render B
+## Render B
 
-<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2021.09.10TH_RenderB.png" width="50%" height="50%">
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/Renders/2026.11.17image008.png" width="50%" height="50%">
 
-## 2022 Live Version(s)
+## Interactive 3D Model
 
-Contents and functionality continue to progress. A handful of updates can be discerned from a Screenshot & a link to a Live 3D Scene - presented below.
+Contents and functionality continue to progress. A handful of updates can be discerned from a Screenshot & a link to a interactive 3D Scene - presented below.
 
 ### Screenshot
 
-<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/test/testfiles/screenshots/20221010screenshot001.png" width="50%" height="50%">
+<img src="https://github.com/william-wml/VirtualTinyHouse/blob/master/test/testfiles/screenshots/2026.11.19image001.png" width="50%" height="50%">
 
-- note: in order to improve import times, live scenes will likely have a limited number of objects
-
-[Link to a Live 3D Scene: VtH - fasteners, plumbing, receptacles, & more!](https://3dviewer.net/#model=https://github.com/william-wml/VirtualTinyHouse/blob/master/test/testfiles/gltf/scenes/20221013VtH-LiveScene001.glb)
+[Link to a Live 3D Scene](https://william-wml.github.io/VirtualTinyHouse/)

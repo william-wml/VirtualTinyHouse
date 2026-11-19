@@ -1,0 +1,61 @@
+name: Deploy VtH Interactive Model Explorer
+
+# Deliberately manual: publishing is controlled from GitHub Actions.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: vth-github-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: threejs
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: threejs/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Audit VtH model and viewer
+        run: npm run audit
+
+      - name: Build production website
+        run: npm run build
+
+      - name: Check built model is present
+        run: |
+          test -s dist/index.html
+          test -s dist/models/VtH.glb
+          echo 'VtH built site and GLB are present.'
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload built website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: threejs/dist
+
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
